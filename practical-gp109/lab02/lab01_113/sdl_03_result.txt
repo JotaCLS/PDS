@@ -1,0 +1,33 @@
+restrain        8      3, 1        Right
+boot            4      8, 1    DownRight
+trap            4      7,17         Down
+bold            4     11, 5     DownLeft
+cinema          6     17, 7         Left
+arrangement     11    11,10           Up
+bless           5     17,10      UpRight
+bomber          6      7, 1        Right
+item            4     11, 2    DownRight
+inspector       9      6,11         Down
+publish         7      2,18     DownLeft
+punish          6      9, 8         Left
+explain         7     13,18       UpLeft
+continuation    12    15, 7           Up
+
+. . . . . . . . . T . . . . . . . . 
+. . . . . . . . . N . . . . . . . P 
+R E S T R A I N . E . . . . . . U . 
+. . . . . . N . . M . . . . . B . . 
+. . . . . . O . . E . . . . L . . . 
+. . . . . . I . . G I . . I . . . . 
+B O M B E R T . . N N N S . . . T . 
+B . . . . . A . . A S H I . . . R . 
+. O H S I N U P . R P . . A . . A . 
+. . O . . . N . . R E . . . L . P . 
+. I . T B . I . . A C . . . . P . . 
+. . T O . . T . . . T . . . . . X . 
+. . L E . . N . . . O . . S . . . E 
+. D . . M . O . . . R . S . . . . . 
+. . . . . . C . . . . E . . . . . . 
+. . . . . . . . . . L . . . . . . . 
+. A M E N I C . . B . . . . . . . . 
+. . . . . . . . . . . . . . . . . . 

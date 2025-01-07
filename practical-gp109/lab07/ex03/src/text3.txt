@@ -1,0 +1,5 @@
+copilo completa com coisasd randoms     
+    for i in range(0, len(lista)):
+        if lista[i] == ' ':
+            lista[i] = random.choice(coisas)
+    return lista

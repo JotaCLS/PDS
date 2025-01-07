@@ -1,0 +1,20 @@
+PROGRAMMING     11       10,1     Right
+JAVA            4        7,8      UpLeft
+WORDS           5        12,12    Up   
+LINES           5        1,6      Right
+CIVIL           5        4,10     Left 
+TEST            4        4,12     Up   
+STACK           5        12,2     Right
+
+. . . . . L I N E S . T 
+. . . . . . . . . . . S 
+. . . . . . . . . . . E 
+. . . . A L I V I C . T 
+. . . . . V . . . . . . 
+. . . . . . A . . . . . 
+. . . . . . . J . . . . 
+. . . . . . . . . . . S 
+. . . . . . . . . . . D 
+P R O G R A M M I N G R 
+. . . . . . . . . . . O 
+. S T A C K . . . . . W 

@@ -1,0 +1,78 @@
+@startuml
+skinparam classAttributeIconSize 0
+class EmployeeCard{
++ {static} EmployeeList : ArrayList<Person>
++ {static} regist(p : Person) : void
+}
+class SharkCompany{
++ {static} main(args : String[]) : void
+}
+class ProxyClass{
+- bankAccountImpl : BankAccountImpl
++ ProxyClass(bank : String, initialDeposit : double)
++ deposit(amount : double) : void
++ withdraw(amount : double) : boolean
++ balance() : double
++ getBank() : String
+}
+ProxyClass ..|> BankAccount
+class Employee{
+- salary : double
+- person : Person
++ Employee(person : Person, s : double)
++ getSalary() : double
++ getPerson() : Person
+}
+class Parking{
++ {static} ParkingList : ArrayList<Person>
++ {static} regist(p : Person) : void
+}
+class Company{
++ {static} user : User
+- emps : List<Employee>
++ admitEmployee(person : Person, salary : int) : void
++ paySalaries(month : int) : void
++ employees() : List<Employee>
++ getAvgSalary() : double
+}
+class Person{
+- name : String
+- bankAccount : BankAccount
+- proxyClass : ProxyClass
++ Person(n : String)
++ getName() : String
++ getBankAccount() : BankAccount
+}
+class SocialSecurity{
+- {static} SocialSecurityList : ArrayList<Person>
++ {static} regist(p : Person) : void
+}
+class BankAccountImpl{
+- bank : String
+- balance : double
+BankAccountImpl(bank : String, initialDeposit : double)
++ getBank() : String
++ deposit(amount : double) : void
++ withdraw(amount : double) : boolean
++ balance() : double
+}
+BankAccountImpl ..|> BankAccount
+class Insurance{
+- {static} InsuranceList : ArrayList<Person>
++ {static} regist(p : Person) : void
+}
+ProxyClass--"- bankAccountImpl" BankAccountImpl
+Employee--"- person" Person
+Company--"+ {static} user" User
+Person--"- bankAccount" BankAccount
+Person--"- proxyClass" ProxyClass
+interface BankAccount{
+deposit(amount : double) : void
+withdraw(amount : double) : boolean
+balance() : double
+}
+enum User{
+OWNER
+COMPANY
+}
+@enduml

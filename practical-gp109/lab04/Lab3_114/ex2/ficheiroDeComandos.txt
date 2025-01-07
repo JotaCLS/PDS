@@ -1,0 +1,8 @@
+f codigo 2x2 4x3
+r codigo T 2
+r codigo T 10
+r codigo T 1
+m codigo
+c codigo:1
+r codigo T 2
+m codigo

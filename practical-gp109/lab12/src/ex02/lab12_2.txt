@@ -1,0 +1,75 @@
+Comecando pela classe java.io.InputStream, na funcao 
+
+ 194:   public int read(byte[] b, int off, int len) throws IOException
+ 195:   {
+ 196:     if (off < 0 || len < 0 || b.length - off < len)
+ 197:       throw new IndexOutOfBoundsException();
+ 198: 
+ 199:     int i, ch;
+ 200: 
+ 201:     for (i = 0; i < len; ++i)
+ 202:       try
+ 203:     {
+ 204:       if ((ch = read()) < 0)
+ 205:         return i == 0 ? -1 : i;        // EOF
+ 206:       b[off + i] = (byte) ch;
+ 207:     }
+ 208:       catch (IOException ex)
+ 209:     {
+ 210:       // Only reading the first byte should cause an IOException.
+ 211:       if (i == 0)
+ 212:         throw ex;
+ 213:       return i;
+ 214:     }
+ 215: 
+ 216:     return i;
+ 217:   }
+
+ é chamada a funcao read()
+
+Nas funcoes da classe java.io.Write
+
+84:   public void write (byte[] b) throws IOException, NullPointerException
+85:   {
+86:     write (b, 0, b.length);
+87:   }
+
+104:   public void write (byte[] b, int off, int len)
+105:     throws IOException, NullPointerException, IndexOutOfBoundsException
+106:   {
+107:     if (off < 0 || len < 0 || off + len > b.length)
+108:       throw new ArrayIndexOutOfBoundsException ();
+109:     for (int i = 0; i < len; ++i)
+110:       write (b[off + i]);
+111:   }
+
+é chamada a funcao write() 
+
+na classe java.io.Reader
+
+134:   public int read(char buf[]) throws IOException
+135:   {
+136:     return read(buf, 0, buf.length);
+137:   }
+
+150:   public int read() throws IOException
+151:   {
+152:     char[] buf = new char[1];
+153:     int count = read(buf, 0, 1);
+154:     return count > 0 ? buf[0] : -1;
+155:   }
+156: 
+157:   /** @since 1.5 */
+158:   public int read(CharBuffer buffer) throws IOException
+159:   {
+160:     // We want to call put(), so we don't manipulate the CharBuffer
+161:     // directly.
+162:     int rem = buffer.remaining();
+163:     char[] buf = new char[rem];
+164:     int result = read(buf, 0, rem);
+165:     if (result != -1)
+166:       buffer.put(buf, 0, result);
+167:     return result;
+168:   }
+
+sao definidas varias instancias da funcao read para as varias maneira de usar a classe

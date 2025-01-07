@@ -1,0 +1,19 @@
+PALAVRA         7        9,10     UpLeft
+PARA            4        9,3      DownRight
+PARADO          6        12,10    UpLeft
+BANANA          6        8,7      UpLeft
+ANANAS          6        6,9      Up   
+CENAS           5        5,8      UpLeft
+
+. . . S . . . . S . . . 
+. . . . A . . . A . . . 
+. A . A . N . . N . . . 
+. . N . R . E . A . . . 
+. . . A . V . C N . . . 
+. . . . N . A . A . . . 
+. . . . O A . L . . . . 
+. . . . . D B . A . . . 
+. . P . . . A . . P . . 
+. . . A . . . R . . . . 
+. . . . R . . . A . . . 
+. . . . . A . . . P . . 

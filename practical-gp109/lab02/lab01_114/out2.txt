@@ -1,0 +1,17 @@
+BAG             3        2,3      Left 
+RUTABAGA        8        3,1      Right
+COELHO          6        8,9      Left 
+JOSE            4        4,4      DownLeft
+MARIA           5        2,8      Left 
+TERESA          6        7,3      Right
+CATARINA        8        9,2      Right
+
+. . . . . . . . . 
+G A B A I R A M . 
+R U T A B A G A . 
+. . . J . . . . . 
+. . O . . . . . . 
+. S . . . . . . . 
+E . T E R E S A . 
+. . . O H L E O C 
+. C A T A R I N A 

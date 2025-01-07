@@ -1,0 +1,17 @@
+BREAD 5 1,1 Right
+SUN 3 2,2 Right
+SHORTS 6 3,2 Right
+ALMOND 6 4,1 Right
+TIP 3 5,2 Right
+TRIO 4 6,1 Right
+YOGURTS 7 7,1 Right
+
+
+BREAD...
+.SUN....
+.SHORTS.
+ALMOND..
+.TIP....
+TRIO....
+YOGURTS.
+........

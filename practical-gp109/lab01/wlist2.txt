@@ -1,0 +1,5 @@
+computer;struct
+science
+algorithm;scisors
+data;abstract
+structure

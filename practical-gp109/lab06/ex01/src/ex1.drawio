@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-04-06T21:49:50.163Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="48ok2iUCaD4BSZI6UP7T" version="24.2.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="991" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;endSize=7;startSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-1" target="QMu-Rc1K3w6PyWBEOTzl-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QMu-Rc1K3w6PyWBEOTzl-31" vertex="1" connectable="0">
+          <mxGeometry x="0.33" y="-2" relative="1" as="geometry">
+            <mxPoint x="28" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-1" value="CakeMaster" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="30" y="75" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-2" value="- cb : CakeBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QMu-Rc1K3w6PyWBEOTzl-1" vertex="1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QMu-Rc1K3w6PyWBEOTzl-1" vertex="1">
+          <mxGeometry y="52" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-4" value="+ setCakeBuilder(CakeBuilder) : void&lt;div&gt;+ createCake(Shape, int, String) : void&lt;/div&gt;&lt;div&gt;+ createCake(String) : void&lt;/div&gt;&lt;div&gt;+ createCake(int, String) : void&lt;/div&gt;&lt;div&gt;+ createCake(Shape, String) : void&lt;/div&gt;&lt;div&gt;+ checkNumLayers(int) : void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getCake() : cake&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QMu-Rc1K3w6PyWBEOTzl-1" vertex="1">
+          <mxGeometry y="60" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CakeBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCakeShape(Shape shape) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addCakeLayer() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addCreamLayer() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addTopLayer() : void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addTopping (): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addMessage (String m) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createCake() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCake() : Cake&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="440" y="80" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4gOxudKfMGDyaaZpbyz4-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-13" target="QMu-Rc1K3w6PyWBEOTzl-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-13" value="ChocolateCakeBuilder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="310" y="370" width="140" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4gOxudKfMGDyaaZpbyz4-2" value="&amp;nbsp;# cake : Cake&lt;div&gt;&amp;nbsp;# cakeLayers : int&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QMu-Rc1K3w6PyWBEOTzl-13">
+          <mxGeometry y="26" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.229;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-13" target="QMu-Rc1K3w6PyWBEOTzl-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gOxudKfMGDyaaZpbyz4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-18" target="QMu-Rc1K3w6PyWBEOTzl-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-18" value="SpongeCakeBuilder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="370" width="140" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4gOxudKfMGDyaaZpbyz4-3" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;# cake : Cake&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;# cakeLayers : int&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QMu-Rc1K3w6PyWBEOTzl-18">
+          <mxGeometry y="26" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4gOxudKfMGDyaaZpbyz4-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-23" target="QMu-Rc1K3w6PyWBEOTzl-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-23" value="YogurtCakeBuilder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="630" y="370" width="140" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4gOxudKfMGDyaaZpbyz4-4" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;# cake : Cake&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;# cakeLayers : int&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QMu-Rc1K3w6PyWBEOTzl-23">
+          <mxGeometry y="26" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QMu-Rc1K3w6PyWBEOTzl-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-33" value="Cake" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="460" y="530" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-34" value="- shape : Shape&lt;div&gt;- cakeLayer : String&lt;/div&gt;&lt;div&gt;- numCakeLayers : int&lt;/div&gt;&lt;div&gt;- midLayerCream : Cream&lt;/div&gt;&lt;div&gt;- topLayerCream : Cream&lt;/div&gt;&lt;div&gt;- topping : Topping&lt;/div&gt;&lt;div&gt;- message : String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QMu-Rc1K3w6PyWBEOTzl-33" vertex="1">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QMu-Rc1K3w6PyWBEOTzl-33" vertex="1">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QMu-Rc1K3w6PyWBEOTzl-36" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QMu-Rc1K3w6PyWBEOTzl-33" vertex="1">
+          <mxGeometry y="148" width="160" height="2" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

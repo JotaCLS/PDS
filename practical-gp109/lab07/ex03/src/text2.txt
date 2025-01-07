@@ -1,0 +1,1 @@
+dwwadawdawda 2019-07-10: I think you are looking for the `--no-verify` option. This will skip the pre-commit hooks.

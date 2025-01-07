@@ -1,0 +1,17 @@
+ESTAS           5        12,7     Up   
+PALAVRAS        8        4,9      DownLeft
+ESTAO           5        6,10     DownLeft
+INTERCALADAS    12       1,1      Down 
+
+I . . . . . . . . . . . 
+N . . . . . . . . . . . 
+T . . . . . . . . . . . 
+E . . . . . . . P . . . 
+R . . . . . . A . . . . 
+C . . . . . L . . E . . 
+A . . . . A . . S . . . 
+L . . . V . S T . . . . 
+A . . R . . A . . . . . 
+D . A . . O T . . . . . 
+A S . . . . S . . . . . 
+S . . . . . E . . . . . 

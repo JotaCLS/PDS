@@ -1,0 +1,2 @@
+university;student;learn knowledge project;civic
+bag; rutbag

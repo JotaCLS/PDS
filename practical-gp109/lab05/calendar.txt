@@ -1,0 +1,4 @@
+A classe java.util.calendar usa o padrao Factory visivel na linha 1629 na funcao getInstace, usado para criar instacias de objetos do tipo calendar.
+Usa o Builder pattern, disponibilizando metodos para definir data e hora individualmente, como setTimeInMillis(long millis) e setTimeZone(TimeZone value)
+Usa o singleton pattern, disponibilizando um metodo estatico para obter a instancia do objeto Calendar, getInstance().
+Usa o prototype pattern para criar uma copia do objeto Calendar, clone().

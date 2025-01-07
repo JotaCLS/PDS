@@ -1,0 +1,4 @@
+sete
+oito
+nove
+doze

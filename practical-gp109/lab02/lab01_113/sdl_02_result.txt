@@ -1,0 +1,26 @@
+penny           5      7, 9         Down
+march           5      1,15     DownLeft
+present         7     14, 7         Left
+cart            4      8,11       UpLeft
+software        8      8, 1           Up
+convict         7      7, 4      UpRight
+pot             3      5, 2        Right
+injection       9      3, 7    DownRight
+push            4     12,10         Down
+zero            4      3,14     DownLeft
+
+E . . . . . . . . T . . . . M 
+R . . . . . . . C . . . . A . 
+A . . . . . I I . . . . R Z . 
+W . . . . . V N . . . C E . . 
+T P O T . N . T J . H R . . . 
+F . . . O . . . R E O . . . . 
+O . . C . . . . P A C . . . . 
+S . . . . . . . E . C T . . . 
+. . . . . . . . N . . . I . . 
+. . . . . . . . N . . . . O . 
+. . . . . . . . Y . . . . . N 
+. . . . . . . . . P . . . . . 
+. . . . . . . . . U . . . . . 
+T N E S E R P . . S . . . . . 
+. . . . . . . . . H . . . . . 

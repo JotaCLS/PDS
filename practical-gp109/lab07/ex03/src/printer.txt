@@ -1,0 +1,51 @@
+Spooling 0 jobs.
+Spooling 0 jobs.
+Finished Job1 : Lorem impsum wdnaiud..."
+Jobs in queue:
+Finished Job2 : Lorem impsum wdnaiud..."
+3
+4
+Finished Job3 : dwwadawdawda 2019-07..."
+Finished Job4 : copilo completa com ..."
+Jobs in queue:
+7
+Finished Job5 : Lorem impsum wdnaiud..."
+Finished Job7 : copilo completa com ..."
+Jobs in queue:
+Finished Job11 : Lorem impsum wdnaiud..."
+Jobs in queue:
+Finished Job12 : Lorem impsum wdnaiud..."
+13
+14
+Finished Job13 : dwwadawdawda 2019-07..."
+Finished Job14 : copilo completa com ..."
+Finished Job15 : Lorem impsum wdnaiud..."
+Jobs in queue:
+17
+Finished Job16 : dwwadawdawda 2019-07..."
+Finished Job17 : copilo completa com ..."
+Jobs in queue:
+Document printed: "Lorem impsum wdnaiud..."
+Document printed: "Lorem impsum wdnaiud..."
+Document printed: "Lorem impsum wdnaiud..."
+Document printed: "Lorem impsum wdnaiud..."
+Please refill printer.
+Operação não suportada para impressoras básicas
+Printer out of ink or paper.
+Operação não suportada para impressoras básicas
+Operação não suportada para impressoras básicas
+Printer out of ink or paper.
+Operação não suportada para impressoras básicas
+Operação não suportada para impressoras básicas
+Document printed: "Lorem impsum wdnaiud..."
+Document printed: "Lorem impsum wdnaiud..."
+Document printed: "Lorem impsum wdnaiud..."
+Document printed: "Lorem impsum wdnaiud..."
+Please refill printer.
+Operação não suportada para impressoras básicas
+Printer out of ink or paper.
+Operação não suportada para impressoras básicas
+Operação não suportada para impressoras básicas
+Printer out of ink or paper.
+Operação não suportada para impressoras básicas
+Operação não suportada para impressoras básicas
